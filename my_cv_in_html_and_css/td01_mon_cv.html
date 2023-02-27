@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mon CV</title>
+        <link href="my_css.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hanna NASSAR">
+        <meta name="description" content="La création de mon CV en HTML et CSS">
+        <meta name="keywords" content="HTML, CSS, CV">
+    </head>
+    <body>
+        <h1>CV</h1>
+            <hr/>
+            <div id="matiere">
+            <h2>Table des matières</h2>
+            <ul>
+                <li>
+                    <a href="#etat_civil">Etat Civil</a>
+                </li>
+                <li>
+                    <a href="#formation">Formation</a>
+                </li>
+                <li>
+                    <a href="#entreprises">Entreprises</a>
+                </li>
+                <li>
+                    <a href="#competences">Compétences</a>
+                </li>
+            </ul>
+            </div>
+            <hr/>
+            <h2 id="etat_civil">Etat Civil</h2>
+            
+            <ul>
+                <li id="nom"><span class="gras">Nom </span>: NASSAR</li>
+                <li><span class="gras">Prénom </span>: Hanna</li>
+                <li><span class="gras">Date de naissance</span> : 22/09/1999 au Liban</li>
+                <li><span class="gras">Adresse : </span><a href="http://maps.google.com/maps?f=d&daddr=12%20rue%20Marie%20Curie%20Troyes" target="_blank">12 Rue Marie Curie, 10000, Troyes</a>
+</li>
+                <li><span class="gras">Téléphone</span> : +33 7 53 41 39 59</li>
+                <li><span class="gras">LinkedIn : </span><a href="https://www.linkedin.com/in/hanna-nassar-b368a6209/" target="_blank">LinkedIn</a></li>
+                <li><span class="gras">Email : </span><a href="mailto:hanna.nassar@utt.fr">Contactez-moi</a></li>
+            </ul>
+            <hr/>
+            <h2 id="formation">Formations</h2>
+                <h3>Parcours universitaire</h3>
+                <ul>
+                    <li>2017 : Collège Notre Dame des Sœurs Salvatoriennes - Abra, Liban</li>
+                    <li>2020 : Université Libanaise - Beirut, Liban</li>
+                    <li>2024 : Université de Technologie de Troyes - Troyes, France</li>
+                </ul>
+                <h3>Modules UTT</h3>
+                <ol>
+                    <li class="tm">LO07</li>
+                    <li class="cs">GS10</li>
+                    <li>EV02A</li>
+                    <li>LS01</li>
+                </ol>
+                <h3>Semestres d'etude</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a>
+                    </li>
+                    <li>
+                        <a href="https://www.massachusetts.edu/" target="_blank">University of Massachusetts</a>
+                    </li>
+                    <li>
+                        <a href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>
+                    </li>
+                </ul>
+            <hr/>
+            <h2 id="entreprises">Entreprises</h2>
+            <ol>
+                <li>
+                    <a href="https://www.orangecyberdefense.com/" target="_blank">
+                        <img src="images/ocd.png" alt="Orange CyberDefense" width="200" height="100">
+                    </a> 
+                    <a href="https://www.google.com/maps/dir/?api=1&origin=UTT%20Troyes%20&destination=Orange%20Cyberdefense" target="_blank">
+                        <img src="images/recherche.jpg" alt="Recherche maps" width="100" height="100">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=JcEgGQ4aTQg" target="_blank">
+                        <img src="images/youtube.jpg" alt="Vidéo Youtube" width="200" height="100">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://atos.net/en" target="_blank">
+                        <img src="images/atos.png" alt="Atos" width="200" height="100">
+                    </a>
+                    <a href="https://www.google.com/maps/dir/?api=1&origin=UTT%20Troyes%20&destination=Atos%20Paris" target="_blank">
+                        <img src="images/recherche.jpg" alt="Recherche maps" width="100" height="100">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.capgemini.com/" target="_blank">
+                        <img src="images/capgemini.jpg" alt="Capgemini" width="200" height="100">
+                    </a>
+                    <a href="https://www.google.com/maps/dir/?api=1&origin=UTT%20Troyes%20&destination=Capgemini%20Paris" target="_blank">
+                        <img src="images/recherche.jpg" alt="Recherche maps" width="100" height="100">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.alten.com/" target="_blank">
+                        <img src="images/alten.png" alt="Alten" width="100" height="150">
+                    </a>
+                    <a href="https://www.google.com/maps/dir/?api=1&origin=UTT%20Troyes%20&destination=Alten%2065" target="_blank">
+                        <img src="images/recherche.jpg" alt="Recherche maps" width="100" height="100">
+                    </a>
+                </li>
+            </ol>
+            <hr/>
+            <h2 id="competences">Compétences</h2>
+            <table>
+                <thead>
+                    <tr>
+                    <th id="none" colspan="5">Liste de mes compétences</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><span class="borne">compétences</span></th>
+                        <th><span class="borne">débutant</span></th>
+                        <th><span class="borne">apprenti</span></th>
+                        <th><span class="borne">confirmé</span></th>
+                        <th><span class="borne">expert</span></th>
+                    </tr>
+                    <tr>
+                        <td><span class="borne">HTML</span></td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne"></td>
+                        <td colspan="2" class="td_interne">X</td>
+                    </tr>
+                    <tr>
+                        <td><span class="borne">CSS</span></td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne">X</td>
+                        <td class="td_interne"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="borne">Bootstrap</span></td>
+                        <td rowspan="2" class="td_interne">X</td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="borne">Javascript</span></td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne"></td>
+                        <td class="td_interne"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr/>
+    </body>
+</html>
